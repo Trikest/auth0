@@ -8,7 +8,7 @@ COPY . /app
 RUN npm install
 # If you are building your code for production
 # RUN npm ci --omit=dev
+#Normal
+ENV PORT 3000
 
-ENV PORT 8080
-EXPOSE 8080
 CMD [ "npm", "start" ]

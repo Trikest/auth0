@@ -10,7 +10,7 @@
     "node",
     "express"
   ],
-  "author": "Marcio Bueno",
+  "author": "Salmo thelio",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.25.7",
