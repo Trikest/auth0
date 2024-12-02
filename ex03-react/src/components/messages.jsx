@@ -31,7 +31,7 @@ export const Messages = () => {
   const checkMessages = async () => {
     const token = await getAccessToken();
     console.log("token", token);
-    const response = await fetch(`${import.meta.env.API_URLF}/messages`, {
+    const response = await fetch(`${import.meta.env.VITE_API_URLF}/messages`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
